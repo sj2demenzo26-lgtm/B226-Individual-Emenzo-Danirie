@@ -14,7 +14,9 @@ public class TernaryOperator {
         // Positive or Negative
         int num = 1;
         
-        String result = (num > 0) ? "Positive" : "Negative";
+        String result = (num == 0) ? "Neutral" 
+                : (num > 0) ? "Positive"  
+                : "Negative";
         System.out.println(result);
         
         // Fever or Normal Temp
