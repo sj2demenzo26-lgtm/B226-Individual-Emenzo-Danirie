@@ -13,20 +13,10 @@ public class Random {
     
     public static void main(String args[]){
         
-        int [] lottoNumber = new int [6];
-        int [] lottoNumberChecker = new int [6];
         
-        int count = 1;
         for (int i=0; i < 6; i++){
             int randomNumber = (int) (Math.random()* 58) +1;
-            lottoNumber [i] = randomNumber;
             System.out.println(randomNumber);
-            for (int j = 0; j <= i; j++) {
-                System.out.print(j);
-                
-                
-            }
-            System.out.println("");
         }
         
 //        int currentNum = lottoNumber[0];
@@ -37,7 +27,7 @@ public class Random {
 //        }
 //        for (int i = 0; i < 6; i++) {
 //            System.out.println("Check"+ lottoNumberChecker[i]);
-        }
+        
 //        
 //        System.out.println("Duplicate: " +currentNum);
 //        for (int num : lottoNumber){

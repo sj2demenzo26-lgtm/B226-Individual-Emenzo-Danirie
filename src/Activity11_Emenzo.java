@@ -18,11 +18,17 @@ public class Activity11_Emenzo {
         for (int i = 0; i < lottoNum.length; i++) {
             //Create a integer called random and use math method random()
             int random = (int) (Math.random() * 58) + 1;
+            
+            //Assign value on lottNum array index
             lottoNum[i] = random;
+            
+            //Inner Loop for checking if it has duplicate in outer loop value
             for (int j = 0; j < i; j++) {
+                
+                //Condition if it has duplicate
                 if (lottoNum[i] == lottoNum[j]) {
-                    i--;
-                    break;
+                    i--; //Outer index "i" decrement to go back in previous index where duplicate number occur
+                    break; //Break the inner loop and go back to outer loop for another random integer generation
                 }
             }
             
