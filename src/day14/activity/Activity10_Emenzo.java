@@ -80,7 +80,7 @@ public class Activity10_Emenzo {
         // Convert 45 degrees to radians because Java trig methods require radians
         double radians = Math.toRadians(45); 
 
-        // 13. Math.sin() -> Returns the trigonometric sine of an angle.
+        // 13. Math.sin() -> Returns the trigonometric sine of an angle.git
         double sinValue = Math.sin(radians);
         System.out.println("\n13. Math.sin(45 degrees) = " + sinValue);
         System.out.println("   Explanation: Used with a continuous timer to create smooth, bobbing wave patterns.");
