@@ -22,7 +22,7 @@ public class Activity11_Emenzo {
             int random = (int) (Math.random() * 58) + 1;
             
             //Assign value on lottNum array index
-            lottoNum[i] = random;
+            lottoNum[i] = random;// 7
             
             //Inner Loop for checking if it has duplicate in outer loop value
             for (int j = 0; j < i; j++) {
